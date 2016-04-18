@@ -409,6 +409,7 @@ $(function() {
             
             var $operator_title = $('<div class="flowchart-operator-title"></div>');
             $operator_title.text(infos.title);
+            $operator_title.attr('title', infos.title);
             $operator_title.appendTo($operator);
             
             var $operator_inputs_outputs = $('<div class="flowchart-operator-inputs-outputs"></div>');
